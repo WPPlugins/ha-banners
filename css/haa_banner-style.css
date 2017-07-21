@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.haa_banner-block {
+	background:#FFF;
+	padding:20px;
+	border-radius:15px;
+	margin:20px 0;
+	margin-right:20px;	
+	
+	background: -webkit-linear-gradient(left top, left bottom, #fff, #e8e8e8);   
+	background: -moz-linear-gradient(top,  #fff,  #e8e8e8);
+	background: -o-linear-gradient(top,  #fff,  #e8e8e8);
+	background: -ms-linear-gradient(top,  #fff,  #e8e8e8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8');	
+	
+	border:1px #fff solid;
+	box-shadow:0 0 10px #999;
+}
+.clear { clear:both}
+
+.haa_banner-block h1 {
+	display:block;
+	margin:0 0 20px 0;
+	padding:20px 20px;
+	background:#666;
+	color:#fff;
+	font-size:20px;
+	border-radius:15px;
+	text-shadow:0 0 3px #000;
+	font-style:italic;	
+}
+
+.haa_banners-left {
+	width:330px;
+	float:left;
+	margin:0 20px 0 0;
+	background:#fff;
+	padding:20px 20px 0 20px;
+	border-radius:15px;
+	box-shadow:0 0 5px #d2d2d2;
+	min-height:265px;
+	
+	background: -webkit-linear-gradient(left top, left bottom, #f5f5f5, #ffffff);   
+	background: -moz-linear-gradient(top,  #f5f5f5,  #ffffff);
+	background: -o-linear-gradient(top,  #f5f5f5,  #ffffff);
+	background: -ms-linear-gradient(top,  #f5f5f5,  #ffffff);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ffffff');
+}
+.haa_banners-left p {
+	display:block;
+	padding:0 0 15px 0;
+	margin:0;
+}
+.haa_banners-left p.p_left {
+	float:left;
+	width:48%;
+}
+.haa_banners-left p.p_right {
+	float:right;
+	width:48%;
+}
+.haa_banners-left p.uploadfile, .haa_banners-left p.titleimg {
+	padding:5px 10px;
+	background:#C30;
+	color:#fff;
+	border-radius:5px;
+	margin-bottom:15px;
+} 
+
+.haa_banners-left input[type='text'] {
+	border-radius:5px;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	padding:0 4%;	
+}
+.haa_banners-left label {
+	display:block;
+	background: #8C8C8C;
+	padding:5px 10px 5px 10px;
+	border-radius:5px;
+	color:#fff;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-shadow:0 0 3px #000;
+	box-shadow:0 0 5px #666 inset;
+}
+.haa_banners-left span { font-style:italic;}
+

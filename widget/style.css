@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+.haa_banners_block {
+	padding:10px;		
+	margin-bottom:20px;	
+}
+.ha_banner_opt {
+	border-radius:10px;
+	padding:5px 0;
+	margin:5px 0 0 0;
+	border-top: 1px solid #eee;
+}
+.p_border {
+	border-top:1px #eee solid;
+	display:block;
+	padding:5px 0;
+	margin:0;
+}
+.haa_banners_block h2 {
+	display:block;
+	padding:0 0 10px 0;
+	margin:20px 0 0 0;
+	font-size:16px;
+}
+.haa_banners_block h3 {
+	display:block;
+	padding:10px 0;
+	margin:0;
+	font-size:13px;
+	color:#444;
+}
+.haa_banners_block h3 em {
+	font-weight:normal;
+	color:#666;
+}
+
+.ha_banner_opt span {
+	display:block;
+	padding:10px 0;
+}
+.ha_banner_opt_black {
+	background:#666;
+	color:#fff;
+}
+.block_banners_div {
+	background:#eee;
+	padding:5px 10px;
+	border-radius:10px;
+	min-height:50px;
+	border: 1px solid #ddd;
+	margin-bottom:10px;
+}
+.haa_banners_num {
+	display:block;
+	padding:10px 30px 10px 10px;
+	border-radius:5px;
+	border:1px #CECECE solid;
+	position:relative;
+	
+	background: -webkit-linear-gradient(left top, left bottom, #fff, #e8e8e8);   
+	background: -moz-linear-gradient(top,  #fff,  #e8e8e8);
+	background: -o-linear-gradient(top,  #fff,  #e8e8e8);
+	background: -ms-linear-gradient(top,  #fff,  #e8e8e8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8');
+	
+	box-shadow:0 0 5px #ccc;
+	cursor:move;
+}
+.haa_banners_num input { display:none;}
+.haa_banners_num:hover {border:1px #999 solid;} 
+.haa_banners_num span {
+	display:block;
+	position:absolute;
+	right:5px;
+	top:10px;
+	background: #909090;
+	color:#fff;
+	padding:1px 7px;
+	border-radius:10px;
+	cursor:pointer;
+}
+.haa_banners_num span:hover { background:#333}
+.add_banners {
+	width:150px;
+	padding:10px 15px;
+	border-radius:15px;
+	background:#0080FF;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+	margin-top:10px;
+}
+.opt_grey {
+	padding:10px;
+	background:#F8F8F8;
+	border: 1px solid #eee;
+	padding:5px 10px;
+}
+.clear { clear:both;}
+
+.haa_banners_block_views {overflow:hidden;}

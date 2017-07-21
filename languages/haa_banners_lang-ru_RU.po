@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HA Banners\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Jun 25 2016 18:13:20 GMT+0500\n"
+"PO-Revision-Date: Sat Jun 25 2016 18:42:54 GMT+0500\n"
+"Last-Translator: sashamx <sashamx@gmail.com>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "HA Banners"
+msgstr "HA Banners"
+
+#. URI of the plugin
+msgid "http://khamdamov.ru"
+msgstr "http://khamdamov.ru"
+
+#. Description of the plugin
+msgid "Banners Rotations"
+msgstr "Ротация баннеров"
+
+#. Author of the plugin
+msgid "Alex Khamdamov"
+msgstr "Хамдамов Александр"
+
+#: ../admin/admin-settings.php:34
+msgid "Banner deleted successfully!"
+msgstr "Баннер успешно удален!"
+
+#: ../admin/admin-settings.php:36 ../admin/admin-settings.php:83 ../admin/admin-
+#: settings.php:117 ../admin/admin-settings.php:152
+msgid "Hide this notification"
+msgstr "Скрыть это уведомление"
+
+#: ../admin/admin-settings.php:81 ../admin/admin-settings.php:115
+msgid "Banner successfully saved"
+msgstr "Баннер успешно сохранен"
+
+#: ../admin/admin-settings.php:150
+msgid "Could not load file"
+msgstr "Не удалось загрузить файл"
+
+#: ../admin/admin-settings.php:177
+msgid "Select a file*"
+msgstr "Выберите файл*"
+
+#: ../admin/admin-settings.php:179
+msgid "download banner"
+msgstr "загрузить баннер"
+
+#: ../admin/admin-settings.php:181
+msgid "*Download file"
+msgstr "*Загрузите файл"
+
+#: ../admin/admin-settings.php:183 ../widget/habnners-widget.php:217
+msgid "Width"
+msgstr "Ширина"
+
+#: ../admin/admin-settings.php:187 ../widget/habnners-widget.php:219
+msgid "Height"
+msgstr "Высота"
+
+#: ../admin/admin-settings.php:198
+msgid "Title banner"
+msgstr "Название баннера"
+
+#: ../admin/admin-settings.php:201
+msgid "Add name"
+msgstr "Добавить название"
+
+#: ../admin/admin-settings.php:203
+msgid "Link:"
+msgstr "Ссылка:"
+
+#: ../admin/admin-settings.php:207
+msgid "Format link"
+msgstr "Формат ссылки"
+
+#: ../admin/admin-settings.php:220 ../admin/admin-settings.php:222
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../admin/admin-settings.php:225
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../admin/admin-settings.php:239 ../admin/admin-settings.php:250
+msgid "Name"
+msgstr "Название"
+
+#: ../admin/admin-settings.php:240 ../admin/admin-settings.php:251
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../admin/admin-settings.php:242 ../admin/admin-settings.php:253
+msgid "View"
+msgstr "Просмотры"
+
+#: ../admin/admin-settings.php:243 ../admin/admin-settings.php:254
+msgid "Click"
+msgstr "Переходы"
+
+#: ../admin/admin-settings.php:244 ../admin/admin-settings.php:255
+msgid "Edit / Delete"
+msgstr "Редактировать / Удалить"
+
+#: ../admin/admin-settings.php:272
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../admin/admin-settings.php:273
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../widget/habnners-widget.php:15
+msgid "Widget rotation banners"
+msgstr "Виджет ротации баннеров"
+
+#: ../widget/habnners-widget.php:162
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../widget/habnners-widget.php:165
+msgid "Select banner:"
+msgstr "Выберите баннер:"
+
+#: ../widget/habnners-widget.php:182
+msgid "Add selected"
+msgstr "Добавить выбранные"
+
+#: ../widget/habnners-widget.php:183
+msgid "Select position / remove:"
+msgstr "Настроить позицию / удалить"
+
+#: ../widget/habnners-widget.php:196
+msgid "Basic settings:"
+msgstr "Основные настройки:"
+
+#: ../widget/habnners-widget.php:198
+msgid "Banners show:"
+msgstr "Видимое количество баннеров:"
+
+#: ../widget/habnners-widget.php:202
+msgid "Random selection:"
+msgstr "Случайный выбор:"
+
+#: ../widget/habnners-widget.php:206
+msgid "Enable jQuery rotation:"
+msgstr "Включить jQuery ротацию:"
+
+#: ../widget/habnners-widget.php:210
+msgid "Settings for jQuery rotation:"
+msgstr "Настройки для jQuery ротации:"
+
+#: ../widget/habnners-widget.php:212
+msgid "Interval:"
+msgstr "Интервал:"
+
+#: ../widget/habnners-widget.php:214
+msgid "seconds"
+msgstr "секунды"
